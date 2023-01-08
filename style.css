@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+#setSize, #resetGrid {
+    margin: 5px;
+}
+
+.square {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.colored {
+    background-color: darkcyan;
+}
